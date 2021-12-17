@@ -12,7 +12,11 @@ dependencies:
   flutter:
     sdk: flutter
   provider: ^6.0.1
-  video_player: ^2.2.7
+  video_player:
+    git:
+      url: https://github.com/flutter/plugins.git
+      path: packages/video_player/video_player
+      ref: master
   wakelock: ^0.5.6
   very_good_analysis: ^2.4.0
 
