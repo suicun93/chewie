@@ -14,9 +14,10 @@ dependencies:
   provider: ^6.0.1
   video_player:
     git:
-      url: https://github.com/flutter/plugins.git
+      url: https://github.com/recastrodiaz/plugins.git
       path: packages/video_player/video_player
-      ref: master
+      ref: 8344dcb20e2fe1884dba2745af1b0452df7fe163
+    version: ^0.10.5+2
   wakelock: ^0.5.6
   very_good_analysis: ^2.4.0
 
